@@ -1,0 +1,8 @@
+<div class="main">
+  <ul class="list">
+  {{#each topCompanies as |company|}}
+    <li>{{company.title}} {{company.score}}%</li>
+  {{/each}}
+  </ul>
+  <h3 class="title">Total number of votes: {{votesSum}}</h3>
+</div>
